@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#map {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  z-index: 100;
+}
+
+#download {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  height: 20px;
+  width: 110px;
+  background-color: #000;
+  z-index: 9000;
+}
+
+#online {
+  position: absolute;
+  top: 75px;
+  width: 110px;
+  right: 0;
+  padding: 20px;
+  height: 20px;
+  background-color: #000;
+  z-index: 9000;
+}

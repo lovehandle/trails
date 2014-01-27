@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/vendor/leaflet/leaflet.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+
+    div#download
+      a(href='#') Download Tiles
+    div#online
+      a(href='#') Toggle Online
+
+    block content
+
+    script(src='/javascripts/vendor/jquery/jquery-2.1.0.min.js')
+    script(src='/javascripts/vendor/leaflet/leaflet.js')
+    script(src='/javascripts/vendor/filesaver/filesaver.js')
+    script(src='/javascripts/main.js')
